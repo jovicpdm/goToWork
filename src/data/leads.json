@@ -1,0 +1,902 @@
+[
+    {
+        "id": "ld001",
+        "name": "João Nascimento",
+        "company": "NextGen Systems",
+        "email": "joão.nascimento@nextgensystems.com",
+        "source": "Social Media",
+        "score": 43,
+        "status": "New"
+    },
+    {
+        "id": "ld002",
+        "name": "Maria Lima",
+        "company": "NextGen Systems",
+        "email": "maria.lima@nextgensystems.com",
+        "source": "Website",
+        "score": 52,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld003",
+        "name": "Ana Costa",
+        "company": "NextGen Systems",
+        "email": "ana.costa@nextgensystems.com",
+        "source": "Event",
+        "score": 32,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld004",
+        "name": "Beatriz Rodrigues",
+        "company": "Future Corp",
+        "email": "beatriz.rodrigues@futurecorp.com",
+        "source": "Social Media",
+        "score": 40,
+        "status": "Lost"
+    },
+    {
+        "id": "ld005",
+        "name": "Lucas Nascimento",
+        "company": "NextGen Systems",
+        "email": "lucas.nascimento@nextgensystems.com",
+        "source": "Website",
+        "score": 76,
+        "status": "Lost"
+    },
+    {
+        "id": "ld006",
+        "name": "Carlos Nascimento",
+        "company": "Bright Ideas",
+        "email": "carlos.nascimento@brightideas.com",
+        "source": "Social Media",
+        "score": 100,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld007",
+        "name": "Carlos Santos",
+        "company": "Future Corp",
+        "email": "carlos.santos@futurecorp.com",
+        "source": "Website",
+        "score": 67,
+        "status": "Won"
+    },
+    {
+        "id": "ld008",
+        "name": "João Rodrigues",
+        "company": "Future Corp",
+        "email": "joão.rodrigues@futurecorp.com",
+        "source": "Website",
+        "score": 49,
+        "status": "Won"
+    },
+    {
+        "id": "ld009",
+        "name": "Maria Oliveira",
+        "company": "Tech Innovators",
+        "email": "maria.oliveira@techinnovators.com",
+        "source": "Referral",
+        "score": 29,
+        "status": "New"
+    },
+    {
+        "id": "ld010",
+        "name": "Pedro Santos",
+        "company": "Future Corp",
+        "email": "pedro.santos@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 96,
+        "status": "Lost"
+    },
+    {
+        "id": "ld011",
+        "name": "Rafael Pereira",
+        "company": "Tech Innovators",
+        "email": "rafael.pereira@techinnovators.com",
+        "source": "Event",
+        "score": 98,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld012",
+        "name": "Fernanda Santos",
+        "company": "Future Corp",
+        "email": "fernanda.santos@futurecorp.com",
+        "source": "Website",
+        "score": 88,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld013",
+        "name": "Carlos Oliveira",
+        "company": "Tech Innovators",
+        "email": "carlos.oliveira@techinnovators.com",
+        "source": "Referral",
+        "score": 77,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld014",
+        "name": "Rafael Rodrigues",
+        "company": "Future Corp",
+        "email": "rafael.rodrigues@futurecorp.com",
+        "source": "Website",
+        "score": 39,
+        "status": "Lost"
+    },
+    {
+        "id": "ld015",
+        "name": "Carlos Pereira",
+        "company": "Bright Ideas",
+        "email": "carlos.pereira@brightideas.com",
+        "source": "Social Media",
+        "score": 65,
+        "status": "New"
+    },
+    {
+        "id": "ld016",
+        "name": "Fernanda Oliveira",
+        "company": "Future Corp",
+        "email": "fernanda.oliveira@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 14,
+        "status": "New"
+    },
+    {
+        "id": "ld017",
+        "name": "Lucas Nascimento",
+        "company": "Tech Innovators",
+        "email": "lucas.nascimento@techinnovators.com",
+        "source": "Website",
+        "score": 16,
+        "status": "Lost"
+    },
+    {
+        "id": "ld018",
+        "name": "Lucas Lima",
+        "company": "Bright Ideas",
+        "email": "lucas.lima@brightideas.com",
+        "source": "Event",
+        "score": 94,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld019",
+        "name": "Lucas Almeida",
+        "company": "Global Solutions",
+        "email": "lucas.almeida@globalsolutions.com",
+        "source": "Email Campaign",
+        "score": 42,
+        "status": "Won"
+    },
+    {
+        "id": "ld020",
+        "name": "Beatriz Oliveira",
+        "company": "Future Corp",
+        "email": "beatriz.oliveira@futurecorp.com",
+        "source": "Social Media",
+        "score": 64,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld021",
+        "name": "Beatriz Santos",
+        "company": "Tech Innovators",
+        "email": "beatriz.santos@techinnovators.com",
+        "source": "Event",
+        "score": 27,
+        "status": "New"
+    },
+    {
+        "id": "ld022",
+        "name": "Rafael Nascimento",
+        "company": "Future Corp",
+        "email": "rafael.nascimento@futurecorp.com",
+        "source": "Referral",
+        "score": 40,
+        "status": "Lost"
+    },
+    {
+        "id": "ld023",
+        "name": "Maria Nascimento",
+        "company": "Tech Innovators",
+        "email": "maria.nascimento@techinnovators.com",
+        "source": "Referral",
+        "score": 84,
+        "status": "Won"
+    },
+    {
+        "id": "ld024",
+        "name": "Lucas Almeida",
+        "company": "Future Corp",
+        "email": "lucas.almeida@futurecorp.com",
+        "source": "Event",
+        "score": 44,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld025",
+        "name": "João Pereira",
+        "company": "Global Solutions",
+        "email": "joão.pereira@globalsolutions.com",
+        "source": "Website",
+        "score": 57,
+        "status": "New"
+    },
+    {
+        "id": "ld026",
+        "name": "Maria Oliveira",
+        "company": "Future Corp",
+        "email": "maria.oliveira@futurecorp.com",
+        "source": "Referral",
+        "score": 16,
+        "status": "Won"
+    },
+    {
+        "id": "ld027",
+        "name": "Mariana Lima",
+        "company": "Tech Innovators",
+        "email": "mariana.lima@techinnovators.com",
+        "source": "Email Campaign",
+        "score": 53,
+        "status": "New"
+    },
+    {
+        "id": "ld028",
+        "name": "Beatriz Lima",
+        "company": "Global Solutions",
+        "email": "beatriz.lima@globalsolutions.com",
+        "source": "Event",
+        "score": 88,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld029",
+        "name": "Rafael Lima",
+        "company": "NextGen Systems",
+        "email": "rafael.lima@nextgensystems.com",
+        "source": "Social Media",
+        "score": 33,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld030",
+        "name": "Mariana Silva",
+        "company": "Tech Innovators",
+        "email": "mariana.silva@techinnovators.com",
+        "source": "Social Media",
+        "score": 90,
+        "status": "Lost"
+    },
+    {
+        "id": "ld031",
+        "name": "Carlos Silva",
+        "company": "Future Corp",
+        "email": "carlos.silva@futurecorp.com",
+        "source": "Website",
+        "score": 84,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld032",
+        "name": "Pedro Silva",
+        "company": "Global Solutions",
+        "email": "pedro.silva@globalsolutions.com",
+        "source": "Website",
+        "score": 22,
+        "status": "Won"
+    },
+    {
+        "id": "ld033",
+        "name": "Beatriz Nascimento",
+        "company": "NextGen Systems",
+        "email": "beatriz.nascimento@nextgensystems.com",
+        "source": "Email Campaign",
+        "score": 81,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld034",
+        "name": "Carlos Costa",
+        "company": "NextGen Systems",
+        "email": "carlos.costa@nextgensystems.com",
+        "source": "Referral",
+        "score": 69,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld035",
+        "name": "Maria Santos",
+        "company": "Bright Ideas",
+        "email": "maria.santos@brightideas.com",
+        "source": "Email Campaign",
+        "score": 33,
+        "status": "Won"
+    },
+    {
+        "id": "ld036",
+        "name": "Rafael Santos",
+        "company": "Tech Innovators",
+        "email": "rafael.santos@techinnovators.com",
+        "source": "Social Media",
+        "score": 29,
+        "status": "New"
+    },
+    {
+        "id": "ld037",
+        "name": "Beatriz Nascimento",
+        "company": "Bright Ideas",
+        "email": "beatriz.nascimento@brightideas.com",
+        "source": "Event",
+        "score": 93,
+        "status": "Lost"
+    },
+    {
+        "id": "ld038",
+        "name": "João Almeida",
+        "company": "NextGen Systems",
+        "email": "joão.almeida@nextgensystems.com",
+        "source": "Email Campaign",
+        "score": 99,
+        "status": "Lost"
+    },
+    {
+        "id": "ld039",
+        "name": "João Oliveira",
+        "company": "Tech Innovators",
+        "email": "joão.oliveira@techinnovators.com",
+        "source": "Referral",
+        "score": 66,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld040",
+        "name": "João Almeida",
+        "company": "Bright Ideas",
+        "email": "joão.almeida@brightideas.com",
+        "source": "Referral",
+        "score": 34,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld041",
+        "name": "Lucas Silva",
+        "company": "Future Corp",
+        "email": "lucas.silva@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 57,
+        "status": "New"
+    },
+    {
+        "id": "ld042",
+        "name": "Carlos Nascimento",
+        "company": "Tech Innovators",
+        "email": "carlos.nascimento@techinnovators.com",
+        "source": "Event",
+        "score": 86,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld043",
+        "name": "Maria Oliveira",
+        "company": "Tech Innovators",
+        "email": "maria.oliveira@techinnovators.com",
+        "source": "Website",
+        "score": 15,
+        "status": "Won"
+    },
+    {
+        "id": "ld044",
+        "name": "Pedro Santos",
+        "company": "NextGen Systems",
+        "email": "pedro.santos@nextgensystems.com",
+        "source": "Referral",
+        "score": 84,
+        "status": "New"
+    },
+    {
+        "id": "ld045",
+        "name": "João Pereira",
+        "company": "Bright Ideas",
+        "email": "joão.pereira@brightideas.com",
+        "source": "Social Media",
+        "score": 33,
+        "status": "Won"
+    },
+    {
+        "id": "ld046",
+        "name": "Pedro Silva",
+        "company": "Global Solutions",
+        "email": "pedro.silva@globalsolutions.com",
+        "source": "Email Campaign",
+        "score": 98,
+        "status": "New"
+    },
+    {
+        "id": "ld047",
+        "name": "João Almeida",
+        "company": "Bright Ideas",
+        "email": "joão.almeida@brightideas.com",
+        "source": "Email Campaign",
+        "score": 32,
+        "status": "Lost"
+    },
+    {
+        "id": "ld048",
+        "name": "João Santos",
+        "company": "NextGen Systems",
+        "email": "joão.santos@nextgensystems.com",
+        "source": "Referral",
+        "score": 84,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld049",
+        "name": "Rafael Silva",
+        "company": "Bright Ideas",
+        "email": "rafael.silva@brightideas.com",
+        "source": "Social Media",
+        "score": 66,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld050",
+        "name": "João Almeida",
+        "company": "Tech Innovators",
+        "email": "joão.almeida@techinnovators.com",
+        "source": "Email Campaign",
+        "score": 65,
+        "status": "Won"
+    },
+    {
+        "id": "ld051",
+        "name": "Lucas Almeida",
+        "company": "Bright Ideas",
+        "email": "lucas.almeida@brightideas.com",
+        "source": "Email Campaign",
+        "score": 96,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld052",
+        "name": "Beatriz Pereira",
+        "company": "Bright Ideas",
+        "email": "beatriz.pereira@brightideas.com",
+        "source": "Referral",
+        "score": 83,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld053",
+        "name": "Ana Rodrigues",
+        "company": "Tech Innovators",
+        "email": "ana.rodrigues@techinnovators.com",
+        "source": "Website",
+        "score": 38,
+        "status": "Lost"
+    },
+    {
+        "id": "ld054",
+        "name": "Carlos Pereira",
+        "company": "NextGen Systems",
+        "email": "carlos.pereira@nextgensystems.com",
+        "source": "Event",
+        "score": 52,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld055",
+        "name": "Mariana Pereira",
+        "company": "Global Solutions",
+        "email": "mariana.pereira@globalsolutions.com",
+        "source": "Social Media",
+        "score": 11,
+        "status": "Won"
+    },
+    {
+        "id": "ld056",
+        "name": "Beatriz Santos",
+        "company": "NextGen Systems",
+        "email": "beatriz.santos@nextgensystems.com",
+        "source": "Referral",
+        "score": 19,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld057",
+        "name": "Beatriz Pereira",
+        "company": "Future Corp",
+        "email": "beatriz.pereira@futurecorp.com",
+        "source": "Referral",
+        "score": 68,
+        "status": "Lost"
+    },
+    {
+        "id": "ld058",
+        "name": "João Almeida",
+        "company": "Bright Ideas",
+        "email": "joão.almeida@brightideas.com",
+        "source": "Referral",
+        "score": 29,
+        "status": "New"
+    },
+    {
+        "id": "ld059",
+        "name": "Carlos Costa",
+        "company": "NextGen Systems",
+        "email": "carlos.costa@nextgensystems.com",
+        "source": "Email Campaign",
+        "score": 10,
+        "status": "Won"
+    },
+    {
+        "id": "ld060",
+        "name": "João Oliveira",
+        "company": "Global Solutions",
+        "email": "joão.oliveira@globalsolutions.com",
+        "source": "Website",
+        "score": 76,
+        "status": "New"
+    },
+    {
+        "id": "ld061",
+        "name": "Fernanda Souza",
+        "company": "Future Corp",
+        "email": "fernanda.souza@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 39,
+        "status": "New"
+    },
+    {
+        "id": "ld062",
+        "name": "Fernanda Santos",
+        "company": "Global Solutions",
+        "email": "fernanda.santos@globalsolutions.com",
+        "source": "Social Media",
+        "score": 30,
+        "status": "New"
+    },
+    {
+        "id": "ld063",
+        "name": "Maria Oliveira",
+        "company": "Future Corp",
+        "email": "maria.oliveira@futurecorp.com",
+        "source": "Referral",
+        "score": 86,
+        "status": "New"
+    },
+    {
+        "id": "ld064",
+        "name": "Beatriz Oliveira",
+        "company": "Global Solutions",
+        "email": "beatriz.oliveira@globalsolutions.com",
+        "source": "Website",
+        "score": 65,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld065",
+        "name": "Carlos Nascimento",
+        "company": "Global Solutions",
+        "email": "carlos.nascimento@globalsolutions.com",
+        "source": "Social Media",
+        "score": 27,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld066",
+        "name": "Fernanda Almeida",
+        "company": "Bright Ideas",
+        "email": "fernanda.almeida@brightideas.com",
+        "source": "Social Media",
+        "score": 20,
+        "status": "Won"
+    },
+    {
+        "id": "ld067",
+        "name": "Maria Almeida",
+        "company": "Future Corp",
+        "email": "maria.almeida@futurecorp.com",
+        "source": "Social Media",
+        "score": 20,
+        "status": "New"
+    },
+    {
+        "id": "ld068",
+        "name": "Pedro Nascimento",
+        "company": "Global Solutions",
+        "email": "pedro.nascimento@globalsolutions.com",
+        "source": "Social Media",
+        "score": 71,
+        "status": "New"
+    },
+    {
+        "id": "ld069",
+        "name": "Ana Lima",
+        "company": "Bright Ideas",
+        "email": "ana.lima@brightideas.com",
+        "source": "Event",
+        "score": 93,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld070",
+        "name": "Carlos Costa",
+        "company": "NextGen Systems",
+        "email": "carlos.costa@nextgensystems.com",
+        "source": "Website",
+        "score": 23,
+        "status": "Won"
+    },
+    {
+        "id": "ld071",
+        "name": "Fernanda Oliveira",
+        "company": "Future Corp",
+        "email": "fernanda.oliveira@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 32,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld072",
+        "name": "Beatriz Lima",
+        "company": "Future Corp",
+        "email": "beatriz.lima@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 45,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld073",
+        "name": "Lucas Almeida",
+        "company": "Future Corp",
+        "email": "lucas.almeida@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 59,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld074",
+        "name": "Carlos Santos",
+        "company": "Global Solutions",
+        "email": "carlos.santos@globalsolutions.com",
+        "source": "Email Campaign",
+        "score": 48,
+        "status": "New"
+    },
+    {
+        "id": "ld075",
+        "name": "Maria Lima",
+        "company": "Future Corp",
+        "email": "maria.lima@futurecorp.com",
+        "source": "Event",
+        "score": 38,
+        "status": "New"
+    },
+    {
+        "id": "ld076",
+        "name": "Rafael Lima",
+        "company": "Future Corp",
+        "email": "rafael.lima@futurecorp.com",
+        "source": "Referral",
+        "score": 81,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld077",
+        "name": "Ana Almeida",
+        "company": "Bright Ideas",
+        "email": "ana.almeida@brightideas.com",
+        "source": "Email Campaign",
+        "score": 26,
+        "status": "Won"
+    },
+    {
+        "id": "ld078",
+        "name": "Rafael Pereira",
+        "company": "Global Solutions",
+        "email": "rafael.pereira@globalsolutions.com",
+        "source": "Website",
+        "score": 65,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld079",
+        "name": "Fernanda Rodrigues",
+        "company": "NextGen Systems",
+        "email": "fernanda.rodrigues@nextgensystems.com",
+        "source": "Referral",
+        "score": 92,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld080",
+        "name": "Fernanda Silva",
+        "company": "NextGen Systems",
+        "email": "fernanda.silva@nextgensystems.com",
+        "source": "Referral",
+        "score": 83,
+        "status": "New"
+    },
+    {
+        "id": "ld081",
+        "name": "Fernanda Almeida",
+        "company": "Global Solutions",
+        "email": "fernanda.almeida@globalsolutions.com",
+        "source": "Event",
+        "score": 66,
+        "status": "New"
+    },
+    {
+        "id": "ld082",
+        "name": "Mariana Oliveira",
+        "company": "Tech Innovators",
+        "email": "mariana.oliveira@techinnovators.com",
+        "source": "Website",
+        "score": 61,
+        "status": "Lost"
+    },
+    {
+        "id": "ld083",
+        "name": "João Rodrigues",
+        "company": "NextGen Systems",
+        "email": "joão.rodrigues@nextgensystems.com",
+        "source": "Social Media",
+        "score": 46,
+        "status": "Lost"
+    },
+    {
+        "id": "ld084",
+        "name": "Ana Nascimento",
+        "company": "Global Solutions",
+        "email": "ana.nascimento@globalsolutions.com",
+        "source": "Event",
+        "score": 13,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld085",
+        "name": "Carlos Rodrigues",
+        "company": "Tech Innovators",
+        "email": "carlos.rodrigues@techinnovators.com",
+        "source": "Referral",
+        "score": 40,
+        "status": "Lost"
+    },
+    {
+        "id": "ld086",
+        "name": "Pedro Santos",
+        "company": "NextGen Systems",
+        "email": "pedro.santos@nextgensystems.com",
+        "source": "Referral",
+        "score": 92,
+        "status": "New"
+    },
+    {
+        "id": "ld087",
+        "name": "Maria Oliveira",
+        "company": "Tech Innovators",
+        "email": "maria.oliveira@techinnovators.com",
+        "source": "Referral",
+        "score": 37,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld088",
+        "name": "Pedro Silva",
+        "company": "Tech Innovators",
+        "email": "pedro.silva@techinnovators.com",
+        "source": "Email Campaign",
+        "score": 46,
+        "status": "New"
+    },
+    {
+        "id": "ld089",
+        "name": "Carlos Nascimento",
+        "company": "Bright Ideas",
+        "email": "carlos.nascimento@brightideas.com",
+        "source": "Email Campaign",
+        "score": 99,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld090",
+        "name": "Rafael Nascimento",
+        "company": "Tech Innovators",
+        "email": "rafael.nascimento@techinnovators.com",
+        "source": "Event",
+        "score": 54,
+        "status": "Lost"
+    },
+    {
+        "id": "ld091",
+        "name": "Maria Nascimento",
+        "company": "Future Corp",
+        "email": "maria.nascimento@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 39,
+        "status": "Lost"
+    },
+    {
+        "id": "ld092",
+        "name": "Rafael Lima",
+        "company": "Global Solutions",
+        "email": "rafael.lima@globalsolutions.com",
+        "source": "Event",
+        "score": 25,
+        "status": "Won"
+    },
+    {
+        "id": "ld093",
+        "name": "Rafael Pereira",
+        "company": "Future Corp",
+        "email": "rafael.pereira@futurecorp.com",
+        "source": "Email Campaign",
+        "score": 100,
+        "status": "Lost"
+    },
+    {
+        "id": "ld094",
+        "name": "Fernanda Pereira",
+        "company": "Future Corp",
+        "email": "fernanda.pereira@futurecorp.com",
+        "source": "Social Media",
+        "score": 59,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld095",
+        "name": "Fernanda Pereira",
+        "company": "Tech Innovators",
+        "email": "fernanda.pereira@techinnovators.com",
+        "source": "Website",
+        "score": 80,
+        "status": "Contacted"
+    },
+    {
+        "id": "ld096",
+        "name": "Rafael Silva",
+        "company": "Tech Innovators",
+        "email": "rafael.silva@techinnovators.com",
+        "source": "Referral",
+        "score": 49,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld097",
+        "name": "Rafael Santos",
+        "company": "Tech Innovators",
+        "email": "rafael.santos@techinnovators.com",
+        "source": "Email Campaign",
+        "score": 20,
+        "status": "Qualified"
+    },
+    {
+        "id": "ld098",
+        "name": "João Nascimento",
+        "company": "Bright Ideas",
+        "email": "joão.nascimento@brightideas.com",
+        "source": "Event",
+        "score": 28,
+        "status": "Won"
+    },
+    {
+        "id": "ld099",
+        "name": "Carlos Oliveira",
+        "company": "Bright Ideas",
+        "email": "carlos.oliveira@brightideas.com",
+        "source": "Referral",
+        "score": 60,
+        "status": "New"
+    },
+    {
+        "id": "ld100",
+        "name": "Pedro Lima",
+        "company": "Future Corp",
+        "email": "pedro.lima@futurecorp.com",
+        "source": "Social Media",
+        "score": 51,
+        "status": "Won"
+    }
+]
