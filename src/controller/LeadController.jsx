@@ -3,16 +3,21 @@ import dao from "../dao/dao";
 const LeadController = {
   async loadLeads() {
     const leads = await dao.getAllLeads();
-    console.log(leads);
     return leads;
   },
 
-  async sortLeadsByField(field, ascending = true) {
-    const leads = await dao.getAllLeads();
+  async sortLeadsByField(leadsArray, field, order = "desc") {
+    return leadsArray.sort((a, b) => {
+      if (a[field] < b[field]) return order === "asc" ? -1 : 1;
+      if (a[field] > b[field]) return order === "asc" ? 1 : -1;
+      return 0;
+    });
+  },
 
-    leads.sort((a, b) => {
-      if (!a[field] || !b[field]) return 0;
-    })
+  async filterLeadsByStatus(leadsArray, status) {
+    return leadsArray.filter((row) =>
+      row.status.toLowerCase().includes(status.toLocaleLowerCase())
+    );
   },
 };
 

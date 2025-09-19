@@ -13,6 +13,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [showFilter, setShowFilter] = useState(false);
+  const [status, setStatus] = useState("");
 
   const tableTitles = [
     "Id",
@@ -27,11 +28,16 @@ function App() {
   async function fetchLeads() {
     const loadedLeads = await LeadController.loadLeads();
     setLeads(loadedLeads);
-    setFilteredLeads(loadedLeads);
+    const orderedLeads = await LeadController.sortLeadsByField(
+      loadedLeads,
+      "score",
+      "desc"
+    );
+    setFilteredLeads(orderedLeads);
     setIsLoading(false);
   }
 
-  async function searchByName(data) {
+  async function searchByName() {
     const filteredData = leads.filter((row) =>
       row.name.toLowerCase().includes(search.toLocaleLowerCase())
     );
@@ -55,9 +61,10 @@ function App() {
       : searchByCompany(searchParam);
   }
 
-  async function sortByField(field) {
-    const sortedLeads = await LeadController.sortLeadsByField(field);
-    setFilteredLeads(sortedLeads);
+  async function filterByStatus(value) {
+    const filteredData = await LeadController.filterLeadsByStatus(leads, value);
+
+    setFilteredLeads(filteredData);
   }
 
   useEffect(() => {
@@ -69,8 +76,8 @@ function App() {
       <Title>GoToWork</Title>
       <button
         class="px-4 py-2 w-1/7 bg-cyan-700 text-white rounded-2xl mt-6
-                   hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400
-                   focus:ring-opacity-75"
+                    hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400
+                    focus:ring-opacity-75"
         onClick={() => setShowFilter(!showFilter)}
       >
         Filter
@@ -95,19 +102,20 @@ function App() {
               showSearch(value, "company");
             }}
           />
-          <p className="text-white">Ordenar por: </p>
+          <p className="text-white">Filter by status: </p>
           <select
             className="rounded-2xl px-4 py-2 bg-gray-800 text-white"
             onChange={(e) => {
-              sortByField(e.target.value, );
+              const value = e.target.value;
+              setStatus(value);
+              filterByStatus(value);
             }}
           >
-            <option value="name">Name</option>
-            <option value="company">Company</option>
-            <option value="email">Email</option>
-            <option value="source">Source</option>
-            <option value="score">Score</option>
-            <option value="status">Status</option>
+            <option value="qualified">Qualified</option>
+            <option value="won">Won</option>
+            <option value="new">New</option>
+            <option value="lost">Lost</option>
+            <option value="contacted">Contacted</option>
           </select>
         </div>
       )}
