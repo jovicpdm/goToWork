@@ -7,7 +7,6 @@ import LeadController from "./controller/LeadController";
 import { CustomTableBody } from "./components/CustomTableBody";
 import { CustomInput } from "./components/CustomInput";
 
-
 function App() {
   const [leads, setLeads] = useState([]);
   const [filteredLeads, setFilteredLeads] = useState([]);
@@ -66,7 +65,7 @@ function App() {
     const filteredData =
       value === "all"
         ? leads
-        :   await LeadController.filterLeadsByStatus(leads, value);
+        : await LeadController.filterLeadsByStatus(leads, value);
 
     setFilteredLeads(filteredData);
   }
@@ -126,7 +125,22 @@ function App() {
       )}
       <table className="table-fixed mt-8 row-auto">
         <CustomTableHead headTitles={tableTitles} />
-        <CustomTableBody data={filteredLeads} isLoading={isLoading} />
+        <CustomTableBody
+          data={filteredLeads}
+          isLoading={isLoading}
+          onUpdate={(updatedLead) => {
+            setLeads((prev) =>
+              prev.map((lead) =>
+                lead.id === updatedLead.id ? updatedLead : lead
+              )
+            );
+            setFilteredLeads((prev) =>
+              prev.map((lead) =>
+                lead.id === updatedLead.id ? updatedLead : lead
+              )
+            );
+          }}
+        />
       </table>
     </Container>
   );

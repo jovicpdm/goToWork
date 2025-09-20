@@ -19,6 +19,10 @@ const LeadController = {
       row.status.toLowerCase().includes(status.toLocaleLowerCase())
     );
   },
+
+  async updateLead(updatedLead) {
+    return await dao.updateLead(updatedLead);
+  },
 };
 
 export default LeadController;
