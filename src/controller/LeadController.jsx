@@ -1,4 +1,4 @@
-import dao from "../dao/dao";
+import dao from "../dao/LeadsDao";
 
 const LeadController = {
   async loadLeads() {
