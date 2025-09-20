@@ -7,6 +7,7 @@ import LeadController from "./controller/LeadController";
 import { CustomTableBody } from "./components/CustomTableBody";
 import { CustomInput } from "./components/CustomInput";
 
+
 function App() {
   const [leads, setLeads] = useState([]);
   const [filteredLeads, setFilteredLeads] = useState([]);
@@ -62,7 +63,10 @@ function App() {
   }
 
   async function filterByStatus(value) {
-    const filteredData = await LeadController.filterLeadsByStatus(leads, value);
+    const filteredData =
+      value === "all"
+        ? leads
+        :   await LeadController.filterLeadsByStatus(leads, value);
 
     setFilteredLeads(filteredData);
   }
@@ -111,6 +115,7 @@ function App() {
               filterByStatus(value);
             }}
           >
+            <option value="all">All</option>
             <option value="qualified">Qualified</option>
             <option value="won">Won</option>
             <option value="new">New</option>
